@@ -1,0 +1,66 @@
+[
+    {
+        "name": "Jodhpur Hexilgree Lantern Light",
+        "price": "₹2,520.00",
+        "originalPrice": "₹4,200.00",
+        "discount": "30% OFF",
+        "image": "product1.jpg",
+        "altText": "Jodhpur Lantern"
+    },
+    {
+        "name": "Luxury Sofa- SF0077",
+        "price": "₹13,965.00",
+        "originalPrice": "₹23,275.00",
+        "discount": "50% OFF",
+        "image": "product2.jpg",
+        "altText": "Luxury Sofa"
+    },
+    {
+        "name": "Nestin All Weather Mattress Protectors",
+        "price": "₹700.00",
+        "originalPrice": "₹1,180.00",
+        "discount": "50% OFF",
+        "image": "product3.jpg",
+        "altText": "Mattress Protector"
+    },
+    {
+        "name": "Nestin All-Season Comforters",
+        "price": "₹1,200.00",
+        "originalPrice": "₹1,500.00",
+        "discount": "50% OFF",
+        "image": "product4.jpg",
+        "altText": "Comforters"
+    },
+    {
+        "name": "Cool Gel Memory Pillow",
+        "price": "₹1,200.00",
+        "originalPrice": "₹2,400.00",
+        "discount": "50% OFF",
+        "image": "product5.jpg",
+        "altText": "Cool Gel Memory Pillow"
+    },
+    {
+        "name": "Nestin Duo Latex Mattress",
+        "price": "₹6,840.00",
+        "originalPrice": "₹38,074.00",
+        "discount": "20% OFF",
+        "image": "product6.jpg",
+        "altText": "Nestin Duo Latex Mattress"
+    },
+    {
+        "name": "Nestin Eco Foam Mattress",
+        "price": "₹3,750.00",
+        "originalPrice": "₹15,435.00",
+        "discount": "40% OFF",
+        "image": "product7.jpg",
+        "altText": "Eco Foam Mattress"
+    },
+    {
+        "name": "Nestin Green Latex Spring Mattress",
+        "price": "₹9,845.00",
+        "originalPrice": "₹50,936.00",
+        "discount": "40% OFF",
+        "image": "product8.jpg",
+        "altText": "Green Spring Mattress"
+    }
+]

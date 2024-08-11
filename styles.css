@@ -1,0 +1,298 @@
+body {
+    font-family: Arial, sans-serif;
+}
+/* Navbar */
+.navbar-nav .nav-item:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+}
+
+.dropdown-menu {
+    background-color: #f8f9fa; /* Light background color for the dropdown */
+}
+
+.navbar-nav .dropdown-menu .dropdown-item:hover {
+    background-color: #e9ecef; /* Slightly darker color on hover */
+}
+
+.navbar-nav .nav-link {
+    transition: color 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffc107; /* Highlight color on hover */
+}
+
+.navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.1);
+}
+
+.navbar-toggler:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+
+.card {
+    margin-bottom: 30px;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+.carousel-item img {
+    height: 400px;
+    object-fit: cover;
+}
+
+/* For the discount banner text */
+.discount-banner h1 {
+    font-size: 1.25rem; /* Adjust font size */
+    font-weight: bold;
+    text-align: center;
+}
+
+.discount-banner p {
+    font-size: 1rem; /* Adjust font size */
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+/* For the side displays (pillows, sofa, add-ons) */
+.side-display {
+    font-size: 0.85rem; /* Adjust font size */
+    padding: 0.5rem; /* Adjust padding */
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.side-display img {
+    width: 100%; /* Ensure image fits within the box */
+    height: auto;
+}
+
+/* For the cards in the OUR PRODUCTS section */
+.card-title {
+    font-size: 0.85rem; /* Further reduce the title size */
+    font-weight: bold;
+    text-align: center;
+}
+
+.card-text {
+    font-size: 0.8rem; /* Further reduce the price text */
+    text-align: center;
+}
+
+.badge-danger {
+    font-size: 0.75rem; /* Reduce badge size */
+    background-color: #ff4081;
+    color: white;
+}
+
+/* Promo content styles */
+.promo-content h2 {
+    font-size: 2rem; /* Adjust font size */
+    font-weight: bold;
+    color: #ff4081;
+}
+
+.promo-content h4 {
+    font-size: 1.5rem; /* Adjust font size */
+    margin-top: 10px;
+    color: #333;
+}
+
+.promo-content p {
+    font-size: 1.1rem; /* Adjust font size */
+    margin-top: 20px;
+    color: #777;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+
+/* Adjust the sidebar and central content */
+.mattress-list {
+    font-size: 1rem; /* Adjust font size */
+}
+
+.main-promo {
+    max-width: 60%; /* Adjust width of the central promo content */
+}
+
+.side-promo {
+    font-size: 0.85rem; /* Adjust font size for side promotions */
+    padding: 0.5rem; /* Adjust padding */
+}
+
+.side-promo img {
+    width: 100%; /* Ensure image fits within the box */
+    height: auto;
+}
+
+.card-img-top {
+    height: 180px; /* Adjust height for cards in the side section */
+    object-fit: cover;
+}
+
+/* For the promotional content */
+.promo-content {
+    max-width: 70%; /* Adjust width for the center promo content */
+}
+
+.promo-content h2 {
+    font-size: 1.75rem; /* Adjust font size */
+}
+
+.promo-content h4 {
+    font-size: 1.25rem; /* Adjust font size */
+}
+
+.promo-content p {
+    font-size: 1rem; /* Adjust font size */
+}
+
+/* Specific styles for card titles and body in the main section */
+.card-title {
+    font-size: 1rem; /* Adjust font size for card titles in the main section */
+}
+
+.card-body {
+    padding: 15px; /* Adjust padding */
+}
+
+
+.card {
+    height: 100%; /* Ensures the card takes up full height */
+}
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Hover effect for review tiles */
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px); /* Slightly lift the card */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Add a shadow for depth */
+}
+
+.card-title {
+    transition: color 0.3s ease;
+}
+
+.card:hover .card-title {
+    color: #007bff; /* Change title color on hover */
+}
+
+
+.footer {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    padding: 40px 0;
+    font-size: 14px;
+}
+
+.footer h2 {
+    color: #ffffff;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.footer .newsletter-form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.footer .newsletter-form input[type="email"] {
+    padding: 10px;
+    border: none;
+    width: 300px;
+    border-radius: 5px;
+}
+
+.footer .newsletter-form button {
+    padding: 10px 20px;
+    background-color: #c75b88;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.footer .newsletter-form button:hover {
+    background-color: #a0436b;
+}
+
+.footer p {
+    margin: 10px 0;
+}
+
+.footer h5 {
+    color: #ffffff;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer ul li {
+    margin-bottom: 10px;
+}
+
+.footer ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer .container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.footer .row {
+    margin-bottom: 20px;
+}
+
+.footer .row .col-lg-12 {
+    margin-bottom: 20px;
+}
+
+.footer .text-center {
+    text-align: center;
+}
